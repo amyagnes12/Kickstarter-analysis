@@ -11,11 +11,11 @@ To help Louise with her project campaign by analyzing crowdfunding data to deter
 ### Analysis of Outcomes Based on Launch Date
 I created a pivot table from the Kickstarter worksheet to show the number of successful, failed, and canceled projects by each month. Then I filtered the table based on "Parent Category" and chose "theater" for Parent category. Finally, I created a line chart from the pivot table to visualize the relationship between outcomes and launch month for "theater". 
 From the table and chart I created, Louise could have a better idea which season/months would be the best time to launch the campaigns.
-![launchdate]("resources/Theater_Outcomes_vs_Launch.png")
+![launchdate](resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 I used COUNTIFS() function to populate the "Number Successful", "Number Failed", and "Number Canceled" for "plays" based on each goal range from the Kickstarter worksheet. Then I used the SUM() function to calculate the number of "Total Projects" for each goal range. Based on the data I created, I calculated the percentages of successful, failed, and canceled projects for each goal range. Finally, I created a line chart to visualize the relationship between outcomes and goal amounts. From the table and chart I created, Louise could have a better idea which goal range would have the highest success rate. 
-![goals]("resources/Outcomes_vs_Goals.png")
+![goals](resources/Outcomes_vs_Goals.png)
 
 
 ### Challenges and Difficulties Encountered
